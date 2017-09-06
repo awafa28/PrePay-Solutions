@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="defautpackage.SellerRegistration">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- defautpackage.SellerRegistration -->
+      <class name="defautpackage.NonUKCompanyReg">
+        <methods>
+          <include name="AccountContactDetails"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="UBOForm"/>
+          <include name="BankDetails"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- defautpackage.NonUKCompanyReg -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
